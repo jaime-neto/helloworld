@@ -5,10 +5,14 @@
 
 using namespace std;
 
-void mostrarMensagem(){
+char lerMensagem(){
     char s[10];
     cin >> s;
-    cout << s << endl;
+    return(s);
+}
+
+void mostrarMensagem(){
+    cout << lerMensagem() << endl;
 }
 
 int main(void){
