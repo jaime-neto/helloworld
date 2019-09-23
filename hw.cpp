@@ -2,7 +2,11 @@
 
 using namespace std;
 
-int main(void){
+void mostrarMensagem(){
     cout << "Hello, world!" << endl;
+}
+
+int main(void){
+    mostrarMensagem();
     return(0);
 }
